@@ -1,0 +1,96 @@
+#buttonDiv {
+  background-color: whitesmoke;
+  position: absolute;
+  top: 0px;
+  left: 48px;
+}
+
+#btn {
+  background: whitesmoke;
+  color: darkslategray;
+}
+
+#legendDiv {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    height: 190px;
+    width: 210px;
+    background-color: #737373;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  #legendTitle {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #externalDivMainRailways,
+  #externalDivMinorRailways,
+  #externalDivRailwayBridges,
+  #externalDivRailwayTunnels,
+  #externalDivSubway {
+    display: block;
+    height: 20px;
+    padding: 5px;
+  }
+  
+  #mainRailwaysColour {
+    height: 15px;
+    width: 15px;
+    background-color: #6afb78;
+    float: left;
+    margin-top: 1px;
+    border: 1px solid white;
+  }
+  
+  #minorRailwaysColour {
+    height: 15px;
+    width: 15px;
+    background-color: #80bfff;
+    float: left;
+    margin-top: 1px;
+    border: 1px solid white;
+  }
+  
+  #railwayBridgesColour {
+    height: 15px;
+    width: 15px;
+    background-color: #ff6600;
+    float: left;
+    margin-top: 1px;
+    border: 1px solid white;
+  }
+  
+  #railwayTunnelsColour {
+    height: 15px;
+    width: 15px;
+    background-color: #ff0000;
+    float: left;
+    margin-top: 1px;
+    border: 1px solid white;
+  }
+  
+  #subwayColour {
+    height: 15px;
+    width: 15px;
+    background-color: #0000ff;
+    float: left;
+    margin-top: 1px;
+    border: 1px solid white;
+  }
+  
+  #mainRailwaysSpan,
+  #minorRailwaysSpan,
+  #railwayBridgesSpan,
+  #railwayTunnelsSpan,
+  #subwaySpan {
+    float: left;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }

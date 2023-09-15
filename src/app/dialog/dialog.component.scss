@@ -1,0 +1,53 @@
+#dialog {
+    background: black;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 8%;
+    text-align: center;
+}
+
+.title {
+    background: rgb(0, 0, 0);
+    color: rgb(128, 128, 118);
+    font-size: xx-large;
+    font-family: 'Roboto Regular', sans-serif;
+    text-align: center;
+    font-style: bold;
+}
+
+.content {
+    background: rgb(0, 0, 0);
+    display: flex;
+}
+
+.content-text {
+    background: rgb(0, 0, 0);
+    color: rgb(128, 128, 118);
+    font-family: 'Roboto Regular', sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+.img {
+    flex: 1;
+    height: 30%;
+    width: 30%;
+    margin-right: 10%;
+}
+
+.actions {
+    background: rgb(0, 0, 0);
+}
+
+.button {
+    padding: 1%;
+    background: rgb(46, 43, 43);  
+    font-family: 'Roboto Regular', sans-serif; 
+    font-size: medium;
+    text-align: center;
+    margin-left: 40%;
+    height: fit-content;
+}
